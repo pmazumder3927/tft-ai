@@ -1,29 +1,48 @@
-from PIL import Image
-import PIL.ImageOps
-import pytesseract
-import pyautogui
 import time
-import keyboard
 
-from ScreenInterpreter import ScreenInterpreter
-from Champion import Champion
+import pyautogui
+import win32gui
+
+from Field import Field
 from PlayerControl import PlayerControl
-from Bot import Bot
+from ScreenInterpreter import ScreenInterpreter
+
+
+info_reader = ScreenInterpreter()
 
 
 def testStoreVision():
     "Reads champions in store from screenshot, adds them to board, then prints synergies."
     print("Reading...")
-    info_reader = ScreenInterpreter()
-    info_reader.retrieveData(pyautogui.screenshot())
+    info_reader.readStore()
     print("Identified champs from store: " + str(info_reader.getStore()))
     print("Identified gold total: " + str(info_reader.getGold()))
 
-
+def scanBoard(pc):
+    for i in [20, 19]:
+        pos = pc.boardIndexToPosition(i)
+        pyautogui.mouseDown(button='right', x=pos[0] + offset[0], y=pos[1] + offset[1])
+        pyautogui.mouseUp(button='right')
+        #pyautogui.click(pos[0] + offset[0], pos[1] + offset[1], button='right', interval=0.15, clicks=2)
+def scanBench(pc):
+    for i in range(9):
+        pos = (420 + 122 * i, 775)
+        pyautogui.mouseDown(button='right', x=pos[0] + offset[0], y=pos[1] + offset[1])
+        pyautogui.mouseUp(button='right')
+        champion = info_reader.readChampion(pos[0] + offset[0], pos[1] + offset[1] - 120, pos[0] + offset[0] + 400, pos[1] + offset[1] + 150)
+        field.addChampionToBench(champion, i)
+    print(field.getBoardRepresentation())
+    print(field.getBenchRepresentation())
+    print(field)
+    field.parseShop(info_reader.getStore())
+    print(field.shop)
 def testManeuvering():
     "Tests moving champions around."
     print("Maneuvering...")
     pc = PlayerControl()
+    pc.setOffset(offset)
+    scanBench(pc)
+    """
     pc.placeChampOnBoard(0, 18)
     pc.reorderChampOnBoard(18, 10)
     pc.reorderChampOnBoard(10, 11)
@@ -32,8 +51,9 @@ def testManeuvering():
     pc.reorderChampOnBench(6, 6)
     pc.placeChampOnBoard(6, 14)
     pc.reorderChampOnBoard(14, 6)
-
-
+    pc.buyChampion(1)
+    pc.buyChampion(2)
+    """
 def buyOut():
     "Buys all chmapions in store."
     pc = PlayerControl()
@@ -41,16 +61,9 @@ def buyOut():
         pc.buyChampion(i)
         time.sleep(0.3)
 
-
-# main execution
-while True:  # making a loop
-    try:  # used try so that if user pressed other than the given key error will not be shown
-        if keyboard.is_pressed("-"):  # if key 'a' is pressed
-            testStoreVision()
-        elif keyboard.is_pressed("="):
-            testManeuvering()
-        else:
-            pass
-    except:
-        print("Oh no.")  # if user pressed other than the given key the loop will break
-        break
+hwnd = info_reader.hwnd
+win32gui.ShowWindow(hwnd, 5)
+win32gui.SetForegroundWindow(hwnd)
+offset = (0,0)
+offset = win32gui.ClientToScreen(hwnd, (0, 0))
+field = Field()

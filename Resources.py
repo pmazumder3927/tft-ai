@@ -11,10 +11,10 @@ class Resources:
         self.gold = 0
 
     def increaseXpBy(self, n):
-        xp += n
-        while level < 9 and xp > checkpoints[self.level - 1]:
-            xp -= checkpoints[self.level - 1]
-            level += 1
+        self.xp += n
+        while self.level < 9 and self.xp > self.checkpoints[self.level - 1]:
+            self.xp -= self.checkpoints[self.level - 1]
+            self.level += 1
 
     def increaseGoldBy(self, n):
         self.gold += n

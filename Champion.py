@@ -1,18 +1,29 @@
 import json
+import os
+from collections import OrderedDict
+
+import pandas as pd
+from string_grouper import StringGrouper
 
 
 class Champion:
-
     # static champion data for easy synergy and stat access
 
+    print(os.listdir())
     with open("Synergies.json", "r") as file:
-        synergies = json.load(file)
+        synergies = json.load(open('Synergies.json'))
 
     with open("stats.json", "r") as file:
         stats = json.load(file)
 
     def __init__(self, name, star_level):
-        if name in self.synergies:
+        import string_grouper
+        series = pd.Series([str(name)])
+        champions = pd.Series(list(self.synergies.keys()))
+        similar = string_grouper.match_most_similar(champions, series)[0]
+        # print(pd.DataFrame({'Input': series, 'Output': similar}).to_string)
+        if similar in self.synergies:
+            name = similar
             self.name = name
             self.star_level = star_level
             self.tier = self.synergies[name]["Tier"]
@@ -23,6 +34,13 @@ class Champion:
         else:
             # print("'" + name + "' is not a valid TFT champion.")
             self.name = None
+
+    def getChampionID(self):
+        if self.name:
+            return list(self.synergies).index(self.name)
+
+    def isValid(self):
+        return self.name is not None
 
     """
     def __eq__(self, other):

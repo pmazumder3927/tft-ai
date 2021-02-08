@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d37a29de-bf55-41ef-855d-512a4bcb6d97" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="11f437ff-fa40-4b73-b7a7-074b5f0b3b82" />
+  <component name="ProjectId" id="1gWr9W6PvkCXUwIPrI42RPUC8XQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pramit\Documents\GitHub\tft-ai" />
+      <recent name="C:\Users\Pramit\Documents\GitHub\tft-ai\train" />
+      <recent name="C:\Users\Pramit\Documents\GitHub\tft-ai\env" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.train">
+    <configuration name="pytesseract" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tft-ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Users/Pramit/anaconda3/Lib/site-packages/pytesseract" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/Users/Pramit/anaconda3/Lib/site-packages/pytesseract/pytesseract.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tft-ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for Main.testManeuvering" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tft-ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Main.testManeuvering&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for Main.testStoreVision" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tft-ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;Main.testStoreVision&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in Main.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tft-ai" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Main.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train" />
+        <item itemvalue="Python tests.pytest in Main.py" />
+        <item itemvalue="Python tests.pytest for Main.testStoreVision" />
+        <item itemvalue="Python.pytesseract" />
+        <item itemvalue="Python tests.pytest for Main.testManeuvering" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d37a29de-bf55-41ef-855d-512a4bcb6d97" name="Default Changelist" comment="" />
+      <created>1598241037532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598241037532</updated>
+      <workItem from="1598241039014" duration="7537000" />
+      <workItem from="1598248614024" duration="46874000" />
+      <workItem from="1598401807586" duration="20281000" />
+      <workItem from="1598490492671" duration="14154000" />
+      <workItem from="1598508280727" duration="2160000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="3797" height="489" key="GridCell.Tab.0.bottom" timestamp="1598507802079">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="489" key="GridCell.Tab.0.bottom/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598507802079" />
+    <state width="1495" height="504" key="GridCell.Tab.0.bottom/0.0.3840.2120/1054.-900.1538.900@1054.-900.1538.900" timestamp="1598257969603" />
+    <state width="3797" height="489" key="GridCell.Tab.0.center" timestamp="1598507802078">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="489" key="GridCell.Tab.0.center/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598507802078" />
+    <state width="1495" height="504" key="GridCell.Tab.0.center/0.0.3840.2120/1054.-900.1538.900@1054.-900.1538.900" timestamp="1598257969603" />
+    <state width="3797" height="489" key="GridCell.Tab.0.left" timestamp="1598507802078">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="489" key="GridCell.Tab.0.left/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598507802078" />
+    <state width="1495" height="504" key="GridCell.Tab.0.left/0.0.3840.2120/1054.-900.1538.900@1054.-900.1538.900" timestamp="1598257969603" />
+    <state width="3797" height="489" key="GridCell.Tab.0.right" timestamp="1598507802078">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="489" key="GridCell.Tab.0.right/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598507802078" />
+    <state width="1495" height="504" key="GridCell.Tab.0.right/0.0.3840.2120/1054.-900.1538.900@1054.-900.1538.900" timestamp="1598257969603" />
+    <state width="3797" height="242" key="GridCell.Tab.1.bottom" timestamp="1598493609962">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="242" key="GridCell.Tab.1.bottom/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598493609962" />
+    <state width="3797" height="242" key="GridCell.Tab.1.center" timestamp="1598493609962">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="242" key="GridCell.Tab.1.center/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598493609962" />
+    <state width="3797" height="242" key="GridCell.Tab.1.left" timestamp="1598493609962">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="242" key="GridCell.Tab.1.left/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598493609962" />
+    <state width="3797" height="242" key="GridCell.Tab.1.right" timestamp="1598493609962">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state width="3797" height="242" key="GridCell.Tab.1.right/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598493609962" />
+    <state x="1421" y="705" key="SettingsEditor" timestamp="1598427896880">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1421" y="705" key="SettingsEditor/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598427896880" />
+    <state x="0" y="0" width="2189" height="1575" key="dock-window-1" timestamp="1598435632035">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="0" y="0" width="2189" height="1575" key="dock-window-1/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598435632035" />
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup" timestamp="1598345939636">
+      <screen x="0" y="0" width="3840" height="2120" />
+    </state>
+    <state x="1583" y="495" width="672" height="678" key="search.everywhere.popup/0.0.3840.2120/1054.-900.1538.900@0.0.3840.2120" timestamp="1598345939636" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tft_ai$main.coverage" NAME="main Coverage Results" MODIFIED="1598329134697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/train" />
+    <SUITE FILE_PATH="coverage/tft_ai$PlayerControl.coverage" NAME="PlayerControl Coverage Results" MODIFIED="1598314276090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$Champion.coverage" NAME="Champion Coverage Results" MODIFIED="1598329060348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$pytest_for_Main_testStoreVision.coverage" NAME="pytest for Main.testStoreVision Coverage Results" MODIFIED="1598491526601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$train.coverage" NAME="train Coverage Results" MODIFIED="1598507802069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$ScreenInterpreter.coverage" NAME="ScreenInterpreter Coverage Results" MODIFIED="1598493563569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1598348607726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$pytest_in_Main_py.coverage" NAME="pytest in Main.py Coverage Results" MODIFIED="1598505610843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$TFTEnv.coverage" NAME="TFTEnv Coverage Results" MODIFIED="1598250575447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tft_ai$pytest_for_Main_testManeuvering.coverage" NAME="pytest for Main.testManeuvering Coverage Results" MODIFIED="1598494095263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
